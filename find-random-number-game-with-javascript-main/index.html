@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- CUSTOM CSS FILE -->
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Raqam O'yladim</title>
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header>
+    <h1>Raqam O'yladim</h1>
+    <p class="beetween">(1 dan 20 gacha son kiriting !)</p>
+    <button class="btn again">Qayta urinish !</button>
+    <div class="number">?</div>
+  </header>
+  <!-- HEADER -->
+
+  <!-- MAIN SECTON START -->
+  <main>
+    <section class="left">
+      <input max="20" min="0" class="guess" type="number" />
+      <button class="btn check">Tekshirish!</button>  
+    </section>
+
+    <section class="right">
+      <p class="message">Loading...</p>
+      <p class="label score">💯 Hisob: <span class="score">10</span></p>
+      <p class="label-highscore">
+        🥇Eng Yuqori Hisob: <span class="highscore">0</span>
+      </p>
+    </section>
+  </main>
+  <!-- MAIN SECTON END -->
+
+  <div class="overlay">
+    <div class="lds-hourglass loader"></div>
+  </div>
+
+  <!-- CUSTOM JAVASCRIPT FILE -->
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
